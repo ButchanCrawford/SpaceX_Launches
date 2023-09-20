@@ -17,23 +17,35 @@
     />
   </head>
   <body>
-    <h1>SpaceX Launches</h1>
+    <nav class="nav-bar">
+      <div class="nav-left">
+        <div class="nav-logo">
+          <img
+            src="https://www.spacex.com/static/images/share.jpg"
+            class="logo-img"
+            alt="logo-img"
+          />
+        </div>
+        <h1>SpaceX Launches</h1>
+      </div>
+      <div class="nav-right">
+        <ul class="nav nav-tabs tabs">
+          <li class="nav-item">
+            <a href="#successful" class="nav-link active" data-toggle="tab"
+              >Successful</a
+            >
+          </li>
 
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a href="#successful" class="nav-link active" data-toggle="tab"
-          >Successful</a
-        >
-      </li>
+          <li class="nav-item">
+            <a href="#failed" class="nav-link" data-toggle="tab">Failed</a>
+          </li>
 
-      <li class="nav-item">
-        <a href="#failed" class="nav-link" data-toggle="tab">Failed</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="#upcoming" class="nav-link" data-toggle="tab">Upcoming</a>
-      </li>
-    </ul>
+          <li class="nav-item">
+            <a href="#upcoming" class="nav-link" data-toggle="tab">Upcoming</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="tab-content">
       <div id="successful" class="container tab-pane active">
@@ -52,4 +64,18 @@
       </div>
     </div>
   </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-title"><h2>SpaceX Launches</h2></div>
+
+      <div class="lr-footer-container">
+        <div class="footer-left">
+          <h5>Learn Unclickable</h5>
+        </div>
+        <div class="footer-right">
+          <h5>About Unclickable</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

@@ -1,17 +1,62 @@
+.logo-img {
+  border: rgb(62, 7, 54) 1px solid;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-left: 40px;
+}
+
+.nav-bar {
+  background-color: rgb(23, 2, 23);
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left h1 {
+  padding-top: 15px;
+  padding-left: 20px;
+  color: rgb(63, 18, 104);
+}
+
+.nav-right {
+}
+
+.tabs {
+  margin-left: auto;
+  margin-right: auto;
+}
 .launch-card {
   border: 1px solid #eaeaea;
   padding: 20px;
   margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s;
   display: flex;
   flex-direction: row;
   align-items: center;
+  background: rgba(53, 9, 41, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* backdrop-filter: blur(5.6px); */
+  /* -webkit-backdrop-filter: blur(5.6px); */
 }
 
 .launch-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.008);
+}
+
+.card-text {
+  color: aliceblue;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.launch-links {
+  padding-top: 5px;
 }
 
 .launch-img {
@@ -22,6 +67,10 @@
   margin-right: 15px;
 }
 
+.launch-img:hover {
+  transform: scale(2.5);
+}
+
 .launch-name {
   font-weight: bold;
   margin-bottom: 15px;
@@ -29,4 +78,37 @@
 
 .launch-links a {
   margin-right: 10px;
+}
+
+body {
+  background: rgb(27, 11, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 11, 32, 1) 41%,
+    rgba(30, 45, 77, 1) 56%,
+    rgb(46, 13, 46) 77%
+  );
+}
+
+.footer {
+  background-color: rgb(23, 2, 23);
+  color: blue;
+  height: 160px;
+  margin-top: 50px;
+}
+.footer-title {
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+
+.lr-footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-left {
+}
+
+.footer-right {
 }
